@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Employee Data Form</h2>
+    <form id="employeeForm">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Input ur Name!">
+            <div class="error" id="nameError"></div>
+        </div>
+        <div class="form-group">
+            <label for="position">Position:</label>
+            <input type="text" id="position" name="position" placeholder="Input ur Position!">
+            <div class="error" id="positionError"></div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Input ur Email!">
+            <div class="error" id="emailError"></div>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Input ur Phone!">
+            <div class="error" id="phoneError"></div>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
